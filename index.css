@@ -2,6 +2,10 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+/*header related style*/
+.header{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color:  #FD6E0A;
 }
@@ -18,6 +22,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -36,4 +41,15 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+div > p{
+    font-family: sans-serif;
 }
